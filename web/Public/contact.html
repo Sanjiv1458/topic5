@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        label {
+            color: rgb(255, 146, 4);
+        }
+
+        h1 {
+            color: rgb(255, 125, 4);
+            ;
+        }
+
+        div {
+            background-color: lightgrey;
+            width: 300px;
+            border: 5px solid #d9800c;
+            padding: 50px;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body background-color: rgb(255, 247, 236);>
+    <h1><strong>Chitkara University</strong></h1>
+    <p>Address: Chitkara University, Rajpura, Punjab <br> Contact No. 9905948763
+        <br> Mail: sanjiv1458@gmail.com
+    </p>
+    <div>
+        <h1><strong>Sign in for more details</strong></h1>
+        <form action="mailto:sanjiv1458@gmail.com" method="post" enctype="text/plain">
+        <label for="Name">Your name</label>
+        <input type="text" name="Name" id="Name"><br>
+        <label for="Gmail">Your gmail</label>
+        <input type="email" name="Gmail" id="Gmail"><br>
+        <label for="password">Your password</label>
+        <input type="password" name="password" id="password"><br>
+        <label for="Contact"> Your contact No.</label>
+        <input type="text" name="Contact" id="Contact"><br>
+        <label for="Checkbox">Do you agree</label>
+        <input type="checkbox" name="agreement" id="Checkbox"><br>
+        <label for="Comments">Comments</label>
+        <textarea name="Comments" id="Comments" cols="20" rows="10"></textarea>
+        <input type="submit" value="submit"><br>
+        </form>
+    </div>
+</body>
+
+</html>

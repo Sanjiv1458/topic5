@@ -1,0 +1,21 @@
+*{
+    background-color: rgb(216, 226, 254);
+}
+#user, #name{
+    background-color:rgb(239, 243, 255);
+}
+
+h2,h3{
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.form-group{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table{
+    font-size: 21px;
+    text-align: center;
+}
